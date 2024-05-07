@@ -69,7 +69,7 @@ const Body = () => {
         </ol>
       </Heading>
       <Heading className="text-[1.3rem] py-3" title="Skills">
-        <ol className="list-disc grid grid-cols-5 gap-3 pl-5">
+        <ol className="list-disc grid grid-cols-5 space-x-6 pl-5">
           {skills.map((skill, index) => (
             <li className="py-2" key={index}>
               <h6 className="font-bold text-xs">{`${skill}`}</h6>
