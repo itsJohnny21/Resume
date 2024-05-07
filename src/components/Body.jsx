@@ -4,7 +4,7 @@ import Heading from './Heading'
 const Body = () => {
   return (
     <div className="bg-white text-n-18 py-2 pl-16 pr-16">
-      <Heading className="text-[1.3rem] py-3" title="Professional Experiences">
+      <Heading className="text-[1.3rem] py-2" title="Professional Experiences">
         <ol>
           {experiences.map((experience, index) => (
             <li className="py-2" key={index}>
@@ -21,7 +21,7 @@ const Body = () => {
               <ol className="list-disc pl-5">
                 {experience.bullets.map((bullet, index) => (
                   <li key={index}>
-                    <p className="text-sm">{bullet}</p>
+                    <p className="text-xs">{bullet}</p>
                   </li>
                 ))}
               </ol>
@@ -29,7 +29,12 @@ const Body = () => {
           ))}
         </ol>
       </Heading>
-      <Heading className="text-[1.3rem] py-3" title="Education">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Heading className="text-[1.3rem] py-2" title="Education">
         <ol>
           {education.map((item, index) => (
             <li className="py-2" key={index}>
@@ -48,7 +53,7 @@ const Body = () => {
         </ol>
       </Heading>
       <Heading
-        className="text-[1.3rem] py-3"
+        className="text-[1.3rem] py-2"
         title="Licenses and Certifications"
       >
         <ol>
@@ -68,7 +73,7 @@ const Body = () => {
           ))}
         </ol>
       </Heading>
-      <Heading className="text-[1.3rem] py-3" title="Skills">
+      <Heading className="text-[1.3rem] py-2" title="Skills">
         <ol className="list-disc grid grid-cols-5 space-x-6 pl-5">
           {skills.map((skill, index) => (
             <li className="py-2" key={index}>
@@ -77,7 +82,7 @@ const Body = () => {
           ))}
         </ol>
       </Heading>
-      <Heading className="text-[1.3rem] py-3" title="Awards">
+      <Heading className="text-[1.3rem] py-2" title="Awards">
         <ol>
           {awards.map((award, index) => (
             <li className="py-2" key={index}>
@@ -91,7 +96,7 @@ const Body = () => {
                 <h6 className="font-bold text-[0.95rem]">{`${award.title} - ${award.provider}`}</h6>
               </div>
               <h6 className="text-sm">{`${award.receivedDate}`}</h6>
-              <p className="text-sm">{award.description}</p>
+              <p className="text-xs">{award.description}</p>
             </li>
           ))}
         </ol>
