@@ -28,7 +28,7 @@ const licenses = [
 ]
 
 const skills = [
-  'Forklit Operation',
+  'Forklift Operation',
   'Communication',
   'Microsoft Excel',
   'Delegation',
