@@ -1,5 +1,5 @@
 import { selfie } from '../assets'
-import { contactDetails, name, title } from '../constants/'
+import { contactDetails, name, professionalSummary, title } from '../constants/'
 
 const Header = () => {
   return (
@@ -49,6 +49,11 @@ const Header = () => {
             </li>
           ))}
         </ol>
+      </div>
+      <div className="ml-12 mr-12 mb-2 border-l-4 border-r-4 border-b-4 border-n-18">
+        <p className="p-2 text-sm text-center text-n-18">
+          {professionalSummary}
+        </p>
       </div>
     </>
   )

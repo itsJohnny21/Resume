@@ -1,6 +1,6 @@
 const name = 'Jonathan Salazar'
 const address = '8423 W Whyman Ave Tolleson, AZ 85353 United States'
-const title = 'Warehouse Worker'
+const title = 'Warehouse Associate'
 const phone = '(480) 466-3466'
 const email = 'jsalazar6421@gmail.com'
 const github = 'itsJohnny21'
@@ -11,18 +11,19 @@ const professionalSummary =
 const education = [
   {
     school: 'Arizona State University',
-    title:
-      "Associate's Degree in Computer Science, Computer Software Engineering",
+    title: "Associate's Degree in Computer Science",
     startDate: 'Jan 2022',
     endDate: 'Dec 2023',
+    src: './src/assets/asuIcon.svg',
   },
 ]
 
 const licenses = [
   {
     title: 'Powered Industrial Truck License',
-    provider: 'Amazon Fulfillment Centre and Service Provider',
+    provider: 'Amazon Fulfillment Center',
     receivedDate: 'Jan 2021',
+    src: './src/assets/forkliftIcon.svg',
   },
 ]
 
@@ -46,6 +47,7 @@ const awards = [
     receivedDate: 'Apr 2023',
     description:
       'Presented research findings and a realistic simulation on satellite re-entry at the 2023 ANAS annual meeting held at the Arizona Science Center.',
+    src: './src/assets/anasIcon.png',
   },
 ]
 
@@ -64,10 +66,11 @@ const experiences = [
       'Addressed and resolved customer complaints regarding delivery issues.',
       'Prioritized customer satisfaction by adhering to their specific delivery preferences.',
     ],
+    src: './src/assets/arizonaRepublicIcon.png',
   },
   {
     title: 'Inbound Process Assistant',
-    company: 'Amazon Fulfillment Centre and Service Provider',
+    company: 'Amazon Fulfillment Center',
     startDate: 'Aug 2020',
     endDate: 'Jan 2022',
     totalTime: '1 year 6 months',
@@ -76,9 +79,10 @@ const experiences = [
       'Created immediate solutions to address unforeseen challenges.',
       'Delegated the team based on their skillset and current business requirements.',
       'Wrote the EOS report, documenting any significant events that took place during the shift.',
-      'Consistently demonstrated respect and fairness in team interactions',
+      'Consistently demonstrated respect and fairness in team interactions.',
       'Maintained clear and effective communication with the team, ensuring all members were informed of any significant issues.',
     ],
+    src: './src/assets/amazonIcon.svg',
   },
   {
     title: '2023 Undergrad Satellite Re-Entry Research Project',
@@ -90,6 +94,7 @@ const experiences = [
       'Conducted research on the physics involved during satellite re-entry and created a corresponding physics simulation.',
       "Earned the 'Best Presentation Award' at the Arizona Nevada Academy of Science annual meeting for outstanding team presentation of research findings.",
     ],
+    src: './src/assets/anasIcon.png',
   },
   {
     title: 'UberEats Delivery Driver',
@@ -102,6 +107,7 @@ const experiences = [
       "Ensured the delivery vehicle was properly maintained according to the owner's manual specifications",
       'Monitored essential business expenditures including fuel, tire replacement, oil changes, and mileage for inclusion in tax filings.',
     ],
+    src: './src/assets/uberIcon.svg',
   },
 ]
 
