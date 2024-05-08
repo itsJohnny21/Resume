@@ -86,7 +86,7 @@ const experiences = [
   },
   {
     title: '2023 Undergrad Satellite Re-Entry Research Project',
-    company: 'Arizona Nevada Acadmey of Science',
+    company: 'Arizona Nevada Academy of Science',
     startDate: 'Mar 2023',
     endDate: 'May 2023',
     totalTime: '3 months',
