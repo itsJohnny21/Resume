@@ -5,8 +5,8 @@ const phone = '(480) 466-3466'
 const email = 'jsalazar6421@gmail.com'
 const github = 'itsJohnny21'
 const linkedinLink = 'https://www.linkedin.com/in/jonathan-salazar-6931432a5'
-const professionalSummary =
-  'Proactive and dependable warehouse worker with 2+ years of leadership experience, seeking to add value to the CVS company. Specialties include: communicating effectively, task delegation, operating a forklift, interpreting schematics, and enforcing quality control.'
+const company = "Lowe's"
+const professionalSummary = `Proactive and dependable warehouse worker with 2+ years of leadership experience, seeking to add value to the ${company} company. Specialties include: communicating effectively, task delegation, operating a forklift, interpreting schematics, and enforcing quality control.`
 
 const education = [
   {
@@ -104,7 +104,7 @@ const experiences = [
     totalTime: '2 years 5 months',
     bullets: [
       'Prioritized customer satisfaction by ensuring orders were complete and delivered on time.',
-      "Ensured the delivery vehicle was properly maintained according to the owner's manual specifications",
+      "Ensured the delivery vehicle was properly maintained according to the owner's manual specifications.",
       'Monitored essential business expenditures including fuel, tire replacement, oil changes, and mileage for inclusion in tax filings.',
     ],
     src: './src/assets/uberIcon.svg',
