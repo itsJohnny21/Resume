@@ -21,10 +21,10 @@ const Header = () => {
           </div>
         </div>
         <div className="ml-6">
-          <h4 className="text-[1.5rem]">{name}</h4>
-          <p className="font-thin text-n-17">{title}</p>
+          <h4 className="text-[1.3rem]">{name}</h4>
+          <p className="font-thin text-sm text-n-17">{title}</p>
         </div>
-        <ol className="grid grid-cols-2 grid-rows-2 gap-2 ml-auto mr-10">
+        <ol className="grid grid-cols-2 grid-rows-2 gap-3 ml-auto mr-10">
           {contactDetails.map((contactDetail, index) => (
             <li
               className={
@@ -39,10 +39,7 @@ const Header = () => {
                   height={15}
                   alt={contactDetail.alt}
                 ></img>
-                <a
-                  className="text-[0.7rem] ml-2 text-n-17 text-sm"
-                  href={contactDetail.link}
-                >
+                <a className="text-xs ml-2 text-n-17" href={contactDetail.link}>
                   {contactDetail.content}
                 </a>
               </div>
