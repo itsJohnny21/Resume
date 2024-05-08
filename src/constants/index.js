@@ -5,7 +5,7 @@ const phone = '(480) 466-3466'
 const email = 'jsalazar6421@gmail.com'
 const github = 'itsJohnny21'
 const linkedinLink = 'https://www.linkedin.com/in/jonathan-salazar-6931432a5'
-const company = "Lowe's"
+const company = 'CVS'
 const professionalSummary = `Proactive and dependable warehouse worker with 2+ years of leadership experience, seeking to add value to the ${company} company. Specialties include: communicating effectively, task delegation, operating a forklift, interpreting schematics, and enforcing quality control.`
 
 const education = [
