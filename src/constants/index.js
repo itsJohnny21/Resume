@@ -1,12 +1,12 @@
 const name = 'Jonathan Salazar'
 const address = '8423 W Whyman Ave Tolleson, AZ 85353 United States'
-const title = 'Warehouse Associate'
+const title = 'Software Engineer'
 const phone = '(480) 466-3466'
 const email = 'jsalazar6421@gmail.com'
 const github = 'itsJohnny21'
 const linkedinLink = 'https://www.linkedin.com/in/jonathan-salazar-6931432a5'
-const company = 'CVS'
-const professionalSummary = `Proactive and dependable warehouse worker with 2+ years of leadership experience, seeking to add value to the ${company} company. Specialties include: communicating effectively, task delegation, operating a forklift, interpreting schematics, and enforcing quality control.`
+const company = 'State Farm'
+const objective = `Aspiring software engineer with a strong passion for technological innovation, eager to contribute to ${company}'s success.  Specialties include: database design, software architecture, quality assurance, version control, API design, and web development.`
 
 const education = [
   {
@@ -27,17 +27,25 @@ const licenses = [
   },
 ]
 
-const skills = [
-  'Forklift Operation',
+const technicalSkills = [
+  { name: 'JavaScript', proficiencyLevel: 70 },
+  { name: 'React', proficiencyLevel: 40 },
+  { name: 'Express js', proficiencyLevel: 35 },
+  { name: 'Tailwind CSS', proficiencyLevel: 32 },
+  { name: 'Java', proficiencyLevel: 60 },
+  { name: 'Python', proficiencyLevel: 70 },
+  { name: 'Database Design', proficiencyLevel: 30 },
+  { name: 'AWS', proficiencyLevel: 30 },
+  { name: 'Quality Assurance', proficiencyLevel: 40 },
+  { name: 'Agile Development', proficiencyLevel: 40 },
+]
+
+const softSkills = [
   'Communication',
-  'Quality Assurance',
-  'Team Leadership',
+  'Team Player',
+  'Creativity',
   'Delegation',
-  'Microsoft Excel',
-  'Software Development',
-  'JavaScript',
-  'Database Design',
-  'Arduino',
+  'Time Management',
 ]
 
 const awards = [
@@ -51,63 +59,70 @@ const awards = [
   },
 ]
 
-const experiences = [
+const professionalExperiences = [
   {
-    title: 'Newspaper Carrier',
-    company: 'The Arizona Republic',
-    startDate: 'Jul 2017',
-    endDate: 'Jun 2019',
-    totalTime: '2 years',
-    bullets: [
-      'Managed the assembly and distribution of newspapers to customers.',
-      'Adjusted to a night schedule to be able to perform the job.',
-      'Memorized four different delivery routes, totaling over 500 addresses.',
-      'Streamlined the delivery processes by consolidating the four routes into a single, efficient route, reducing drive time by one hour.',
-      'Addressed and resolved customer complaints regarding delivery issues.',
-      'Prioritized customer satisfaction by adhering to their specific delivery preferences.',
-    ],
-    src: './src/assets/arizonaRepublicIcon.png',
-  },
-  {
-    title: 'Inbound Process Assistant',
-    company: 'Amazon Fulfillment Center',
-    startDate: 'Aug 2020',
-    endDate: 'Jan 2022',
-    totalTime: '1 year 6 months',
-    bullets: [
-      'Monitored incoming shipments and coordinated the team for efficient unloading.',
-      'Created immediate solutions to address unforeseen challenges.',
-      'Delegated the team based on their skillset and current business requirements.',
-      'Wrote the EOS report, documenting any significant events that took place during the shift.',
-      'Consistently demonstrated respect and fairness in team interactions.',
-      'Maintained clear and effective communication with the team, ensuring all members were informed of any significant issues.',
-    ],
-    src: './src/assets/amazonIcon.svg',
-  },
-  {
-    title: '2023 Undergrad Satellite Re-Entry Research Project',
-    company: 'Arizona Nevada Academy of Science',
-    startDate: 'Mar 2023',
-    endDate: 'May 2023',
-    totalTime: '3 months',
-    bullets: [
-      'Conducted research on the physics involved during satellite re-entry and created a corresponding physics simulation.',
-      "Earned the 'Best Presentation Award' at the Arizona Nevada Academy of Science annual meeting for outstanding team presentation of research findings.",
-    ],
-    src: './src/assets/anasIcon.png',
-  },
-  {
-    title: 'UberEats Delivery Driver',
-    company: 'Uber',
-    startDate: 'Jan 2022',
+    title: 'Lead Software Engineer',
+    company: 'EasyDoctor',
+    startDate: 'Jan 2024',
     endDate: 'May 2024',
-    totalTime: '2 years 5 months',
+    totalTime: '4 months',
     bullets: [
-      'Prioritized customer satisfaction by ensuring orders were complete and delivered on time.',
-      "Ensured the delivery vehicle was properly maintained according to the owner's manual specifications.",
-      'Monitored essential business expenditures including fuel, tire replacement, oil changes, and mileage for inclusion in tax filings.',
+      'Managed an agile development project using Jira.',
+      'Collaborated directly with clients to define project requirements.',
+      'Designed application wireframes and user interfaces for main controllers',
+      'Developed a Class Responsibility Collaborator (CRC) card diagram.',
+      'Mentored team members to increase productivity and professional growth.',
+      'Engineered a MySQL database schema using Entity-Relationship (ER) diagrams.',
     ],
-    src: './src/assets/uberIcon.svg',
+    src: './src/assets/easyDoctorIcon.png',
+  },
+  {
+    title: 'Friendship 7 Project',
+    company: 'Personal Project',
+    startDate: 'Aug 2023',
+    endDate: 'Dec 2023',
+    totalTime: '4 months',
+    bullets: [
+      'Investigated the fundamental engineering concepts governing satellite re-entry.',
+      "Collaborated with team members to simulate the re-entry phase of NASA's Mercury Atlas-6 mission.",
+      'Developed detailed graphs and animations using Python libraries to visually represent our findings.',
+      'Composed comprehensive, step-by-step documentation for replicating our simulation.',
+      "Utilized React and Tailwind CSS to design the website's visual aesthetics.",
+      'Employed LaTeX to express all mathematical concepts and computations involved in our study.',
+    ],
+    src: './src/assets/reentryIcon.svg',
+  },
+  {
+    title: 'Typer',
+    company: 'Personal Project',
+    startDate: 'Jun 2023',
+    endDate: 'Nov 2023',
+    totalTime: '5 months',
+    bullets: [
+      "Integrated OpenAI's API to dynamically display content.",
+      'Developed the frontend using React and Tailwind CSS.',
+      'Implemented backend services using Express.js.',
+      "Engineered and optimized a MySQL database schema specifically tailored for Typer's API",
+      'Optimized for time and space complexity, resulting in a 150% increase in performance.',
+      'Crafted the user interface using Tailwind CSS.',
+      'Maintained version control using GitHub.',
+    ],
+    src: './src/assets/typerIcon.svg',
+  },
+  {
+    title: 'KBBScraper',
+    company: 'Personal Project',
+    startDate: 'Jul 2023',
+    endDate: 'Aug 2023',
+    totalTime: '1 month',
+    bullets: [
+      'Developed a web scraping tool using JavaScript and the Puppeteer library to extract car pricing information efficiently.',
+      'Implemented Nodemailer to establish connections with an SMTP server for email functionalities.',
+      'Scheduled automatic monthly email updates using cron jobs.',
+      "Converted scraped data into CSV format and utilized Python's Plotly library to generate insightful visual data presentations.",
+      'Automated data storage by systematically organizing files into folders by month and year.',
+    ],
+    src: './src/assets/scraperIcon.svg',
   },
 ]
 
@@ -146,10 +161,11 @@ export {
   title,
   phone,
   email,
-  professionalSummary,
-  experiences,
+  objective,
+  professionalExperiences,
   education,
   licenses,
-  skills,
+  technicalSkills,
+  softSkills,
   awards,
 }
