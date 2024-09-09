@@ -5,8 +5,8 @@ const phone = '(480) 466-3466'
 const email = 'jsalazar6421@gmail.com'
 const github = 'itsJohnny21'
 const linkedinLink = 'https://www.linkedin.com/in/jonathan-salazar-6931432a5'
-const company = 'State Farm'
-const objective = `Aspiring software engineer with a strong passion for technological innovation, eager to contribute to ${company}'s success.  Specialties include: database design, software architecture, quality assurance, version control, API design, and web development.`
+const company = 'I.R.D.I'
+const objective = `Aspiring software engineer with a strong passion for technological innovation, eager to contribute to ${company}'s success.  Specialties include: database design, software architecture, quality assurance, version control, API design, machine learning, and web development.`
 
 const education = [
   {
@@ -37,7 +37,7 @@ const technicalSkills = [
   { name: 'Database Design', proficiencyLevel: 30 },
   { name: 'AWS', proficiencyLevel: 30 },
   { name: 'Quality Assurance', proficiencyLevel: 40 },
-  { name: 'Agile Development', proficiencyLevel: 40 },
+  { name: 'Linux', proficiencyLevel: 40 },
 ]
 
 const softSkills = [
@@ -77,8 +77,8 @@ const professionalExperiences = [
     src: './src/assets/easyDoctorIcon.png',
   },
   {
-    title: 'Friendship 7 Project',
-    company: 'Personal Project',
+    title: 'Simulation Developer',
+    company: 'WAESO',
     startDate: 'Aug 2023',
     endDate: 'Dec 2023',
     totalTime: '4 months',
@@ -93,8 +93,8 @@ const professionalExperiences = [
     src: './src/assets/reentryIcon.svg',
   },
   {
-    title: 'Typer',
-    company: 'Personal Project',
+    title: 'Full-Stack Developer',
+    company: 'TopicTyper',
     startDate: 'Jun 2023',
     endDate: 'Nov 2023',
     totalTime: '5 months',
@@ -110,8 +110,8 @@ const professionalExperiences = [
     src: './src/assets/typerIcon.svg',
   },
   {
-    title: 'KBBScraper',
-    company: 'Personal Project',
+    title: 'Data Scraping Specialist',
+    company: 'KBBScraper',
     startDate: 'Jul 2023',
     endDate: 'Aug 2023',
     totalTime: '1 month',

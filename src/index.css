@@ -17,6 +17,36 @@
   scroll-behavior: smooth;
 }
 
+.header {
+  background: linear-gradient(45deg, #da2626, #0a69d7, #da263b, #151caf);
+  background-size: 250% 150%;
+  animation: gradientAnimation 60s ease infinite;
+}
+
+.selfie-ring1 {
+  background-color: #175c8a;
+}
+
+.selfie-ring2 {
+  background-color: #194b6d;
+}
+
+.selfie-ring3 {
+  background-color: #173a51;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 @media print {
   @page {
     size: A4;

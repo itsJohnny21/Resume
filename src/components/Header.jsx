@@ -6,7 +6,7 @@ import Selfie from './Selfie'
 const Header = () => {
   return (
     <>
-      <div className="flex h-[7rem] justify-center items-center bg-n-18">
+      <div className="flex h-[7rem] justify-center items-center header">
         <Selfie></Selfie>
         <NameTitle></NameTitle>
         <ContactDetails></ContactDetails>
