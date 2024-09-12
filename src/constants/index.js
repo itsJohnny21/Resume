@@ -5,7 +5,7 @@ const phone = '(480) 466-3466'
 const email = 'jsalazar6421@gmail.com'
 const github = 'itsJohnny21'
 const linkedinLink = 'https://www.linkedin.com/in/jonathan-salazar-6931432a5'
-const company = 'I.R.D.I'
+const company = 'the company'
 const objective = `Aspiring software engineer with a strong passion for technological innovation, eager to contribute to ${company}'s success.  Specialties include: database design, software architecture, quality assurance, version control, API design, machine learning, and web development.`
 
 const education = [
@@ -29,15 +29,15 @@ const licenses = [
 
 const technicalSkills = [
   { name: 'JavaScript', proficiencyLevel: 70 },
-  { name: 'React', proficiencyLevel: 40 },
-  { name: 'Express js', proficiencyLevel: 35 },
-  { name: 'Tailwind CSS', proficiencyLevel: 32 },
+  { name: 'React', proficiencyLevel: 45 },
+  { name: 'Express js', proficiencyLevel: 45 },
+  { name: 'Tailwind CSS', proficiencyLevel: 45 },
   { name: 'Java', proficiencyLevel: 60 },
   { name: 'Python', proficiencyLevel: 70 },
-  { name: 'Database Design', proficiencyLevel: 30 },
+  { name: 'Database Design', proficiencyLevel: 40 },
   { name: 'AWS', proficiencyLevel: 30 },
   { name: 'Quality Assurance', proficiencyLevel: 40 },
-  { name: 'Linux', proficiencyLevel: 40 },
+  { name: 'RDS', proficiencyLevel: 60 },
 ]
 
 const softSkills = [
@@ -67,12 +67,12 @@ const professionalExperiences = [
     endDate: 'May 2024',
     totalTime: '4 months',
     bullets: [
-      'Managed an agile development project using Jira.',
-      'Collaborated directly with clients to define project requirements.',
+      'Managed an agile development project using Jira to increase productivity by 50%.',
       'Designed application wireframes and user interfaces for main controllers',
       'Developed a Class Responsibility Collaborator (CRC) card diagram.',
       'Mentored team members to increase productivity and professional growth.',
       'Engineered a MySQL database schema using Entity-Relationship (ER) diagrams.',
+      'Leveraged AWS to set up a MySQL database server.',
     ],
     src: './src/assets/easyDoctorIcon.png',
   },

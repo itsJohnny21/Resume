@@ -19,7 +19,7 @@ const TechnicalSkills = () => {
                     skill.proficiencyLevel / 100
                   ).css(),
                 }}
-                className={`h-full rounded`}
+                className="h-full rounded"
               ></div>
             </div>
           </li>
