@@ -1,11 +1,11 @@
-import { professionalExperiences } from '../constants'
+import { projectExperiences } from '../constants'
 import Heading from './Heading'
 
-const ProfessionalExperiences = () => {
+const ProjectExperiences = () => {
   return (
-    <Heading className="py-1" title="Professional Experiences">
+    <Heading className="py-1" title="Project Experiences">
       <ol className="grid grid-cols-2 grid-rows-2 gap-1 py-1">
-        {professionalExperiences.map((experience, index) => (
+        {projectExperiences.map((experience, index) => (
           <li key={index}>
             <div className="inline-flex gap-3">
               <img
@@ -31,4 +31,4 @@ const ProfessionalExperiences = () => {
   )
 }
 
-export default ProfessionalExperiences
+export default ProjectExperiences

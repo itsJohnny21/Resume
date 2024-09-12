@@ -59,7 +59,7 @@ const awards = [
   },
 ]
 
-const professionalExperiences = [
+const projectExperiences = [
   {
     title: 'Lead Software Engineer',
     company: 'EasyDoctor',
@@ -162,7 +162,7 @@ export {
   phone,
   email,
   objective,
-  professionalExperiences,
+  projectExperiences,
   education,
   licenses,
   technicalSkills,
