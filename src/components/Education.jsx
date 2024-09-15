@@ -10,12 +10,14 @@ const Education = () => {
             <div className="inline-flex gap-3 py-1">
               <img
                 src={item.src}
-                width={20}
-                height={20}
+                style={{ width: 20, height: 20 }}
                 alt={item.school}
               ></img>
               <h6 className="font-bold text-sm">{`${item.school} - ${item.title}`}</h6>
-              <h6 className="text-xs">{`${item.startDate} - ${item.endDate}`}</h6>
+              <div className="flex flex-col relative">
+                <h6 className="text-[0.6rem] h-[10px]">{`${item.startDate} - ${item.endDate}`}</h6>
+                <h6 className="text-[0.6rem] absolute top-3 left-0">{`GPA: ${item.gpa}`}</h6>
+              </div>
             </div>
           </li>
         ))}

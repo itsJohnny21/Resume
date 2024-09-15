@@ -10,10 +10,19 @@ const objective = `Aspiring software engineer with a strong passion for technolo
 
 const education = [
   {
-    school: 'Arizona State University',
+    school: 'Estrella Community College',
     title: "Associate's Degree in Computer Science",
     startDate: 'Jan 2022',
     endDate: 'Dec 2023',
+    gpa: '3.8',
+    src: './src/assets/emccIcon.png',
+  },
+  {
+    school: 'Arizona State University',
+    title: "Bachelor's Degree in Computer Science",
+    startDate: 'Jan 2024',
+    endDate: 'July 2025',
+    gpa: '3.1',
     src: './src/assets/asuIcon.svg',
   },
 ]
@@ -30,7 +39,7 @@ const licenses = [
 const technicalSkills = [
   { name: 'JavaScript', proficiencyLevel: 70 },
   { name: 'React', proficiencyLevel: 45 },
-  { name: 'Express js', proficiencyLevel: 45 },
+  { name: 'Express.js', proficiencyLevel: 45 },
   { name: 'Tailwind CSS', proficiencyLevel: 45 },
   { name: 'Java', proficiencyLevel: 60 },
   { name: 'Python', proficiencyLevel: 70 },
@@ -154,6 +163,37 @@ const contactDetails = [
   },
 ]
 
+const keywords = [
+  'agile development',
+  'Jira',
+  'wireframes',
+  'user interfaces',
+  'Class Responsiblity Card',
+  'Mentored',
+  'MySQL',
+  'Entity-Relationship',
+  'Python',
+  'documentation',
+  'LaTeX',
+  'API',
+  'GitHub',
+  'Puppetter',
+  'Nodemailer',
+  'cron jobs',
+  'Plotly',
+  'JavaScript',
+  'React',
+  'Express.js',
+  'Tailwind CSS',
+  'Java',
+  'Database Design',
+  'AWS',
+  'Quality Assurance',
+  'RDS',
+  'NASA',
+  'engineering',
+]
+
 export {
   contactDetails,
   address,
@@ -168,4 +208,5 @@ export {
   technicalSkills,
   softSkills,
   awards,
+  keywords,
 }

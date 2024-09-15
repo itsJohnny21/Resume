@@ -11,8 +11,7 @@ const ContactDetails = () => {
           <div className="flex items-center">
             <img
               src={contactDetail.src}
-              width={15}
-              height={15}
+              style={{ width: 15, height: 15 }}
               alt={contactDetail.alt}
             ></img>
             <a className="text-xs ml-2 text-n-17" href={contactDetail.link}>

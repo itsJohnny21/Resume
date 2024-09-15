@@ -1,5 +1,6 @@
-import { projectExperiences } from '../constants'
+import { keywords, projectExperiences } from '../constants'
 import Heading from './Heading'
+import TextWithHighlights from './TextWithHighlights'
 
 const ProjectExperiences = () => {
   return (
@@ -10,17 +11,20 @@ const ProjectExperiences = () => {
             <div className="inline-flex gap-3">
               <img
                 src={experience.src}
-                width={20}
-                height={20}
+                style={{ width: 20, height: 20 }}
                 alt={experience.company}
               ></img>
-              <h6 className="font-bold">{`${experience.title} - ${experience.company}`}</h6>
+              <h5 className="font-bold">{`${experience.title} - ${experience.company}`}</h5>
             </div>
             <h6 className="text-sm">{`${experience.startDate} - ${experience.endDate} (${experience.totalTime})`}</h6>
             <ol className="list-disc pl-5">
               {experience.bullets.map((bullet, index) => (
                 <li key={index}>
-                  <p className="text-xs">{bullet}</p>
+                  <TextWithHighlights
+                    className="text-xs"
+                    text={bullet}
+                    keywords={keywords}
+                  />
                 </li>
               ))}
             </ol>
